@@ -1,6 +1,7 @@
 --- 
 --
 - name: "Install notepadplusplus version 6.6"
+  hosts: all
   win_chocolatey:
    name: notepadplusplus.install
    version: "6.6"
